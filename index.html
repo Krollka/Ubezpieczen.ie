@@ -1,12 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Ubezpieczen.ie</title>
 </head>
 <body>
-    
+    <!-- NAVBAR -->
+    <header class="north-start">
+        <div class="logo-image">
+            <img src="" alt="" srcset="">
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#">Oferta</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HEADER -->
+    <section class="header">
+        <div>
+            <h1>Ubezpiecz się na wszelki wypadek</h1>
+            <p>Pozwól nam pomóc w doborze odpowiedniego dla Ciebie ubezpieczenia - bez względu na jego rodzaj</p>
+            <div>
+                <button>Dobierz ofertę</button>
+                <button>Zobacz ofertę</button>
+            </div>
+        </div>
+        <div>
+            <img src="" alt="logo" srcset="">
+        </div>
+        <!-- button scroll -->
+    </section>
+    <!-- CAROUSEL OFFERTS -->
+    <section class="carousel">
+    <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">  
+                <div class="carousel-caption">
+                  <h3>First slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  <button>BUTTON</button>
+                  <button>BUTTON2</button>
+                </div>
+            </div>
+            <div class="item"> 
+                <div class="carousel-caption">
+                  <h3>Second slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+            <div class="item"> 
+                <div class="carousel-caption">
+                  <h3>Third slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carouselFade" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carouselFade" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </section>
+    <!-- BLOG CAROUSEL 2-->
+    <section class="blog">
+        <!-- splite.js-->
+    </section>
+    <!-- FORM -->
+    <section class="form">
+        <div>
+            <h3>Spełniamy Twoje potrzeby</h3>
+            <p>Wypełnij formularz, aby nasi specjaliści mogli zapoznać się z Twoim przypadkiem, sprostać oczekiwaniom, dobrać najatrakcyniejszą ofertę.</p>
+            <button>Zobacz ofertę</button>
+        </div>
+        <div class="container-form">
+            <h4>Najlepsze ubezpieczenie dla Ciebie</h4>
+            <p>Wypełnij formularz o niezbędne informacje, a my postaramy się o przedstawienie najlepszej oferty – również pod względem finansowym!</p>
+            <form action="">
+              <label for="imie">Imię</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="nazwisko">Nazwisko</label>
+              <input type="text" id="lname" name="lname"><br><br>
+              <label for="tel">Telefon</label>
+              <input type="tel" id="tel"><br><br>
+              <input type="submit" value="Submit">
+              <select name="wybierz" id="wybierz">
+             </select>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <hr>
+            <li><a href="#">Strona Główna</a></li>
+            <hr>
+            <li><a href="#">Kontakt</a></li>
+            <hr>
+            <li><a href="#">Oferta</a></li>
+            <hr>
+            <li><a href="#">Blog</a></li>
+            <hr>
+        </ul>
+        <aside>
+            <img src="./images/icons/instagram.png" alt="instagram">
+            <img src="./images/icons/facebook.png" alt="facebook">
+        </aside>
+        <div>
+            <hr>
+            <div>Polityka prywatności</div>
+            <div>RODO</div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

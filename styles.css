@@ -1,5 +1,5 @@
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Jost', sans-serif;
   }
   .carousel-fade .carousel-inner .item {
     opacity: 0;
@@ -81,5 +81,3 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
       }
-
-    
